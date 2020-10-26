@@ -3,6 +3,7 @@ import kotlin.math.sin
 fun main() {
     val x = readLine()!!.toDouble()
     val n = readLine()!!.toInt()
+    // Обратить внимание на различие в формулах
     val p1 = f1(x,n)
     val p2 = f2(x,n)
     val p3 = f3(x,n)
